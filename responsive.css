@@ -1,0 +1,84 @@
+@media (min-width: 320px) and (max-width: 576px) {
+  .navBar-title img {
+    height: 35px;
+    width: 35px;
+  }
+  .navBar ul li a {
+    font-size: 14px;
+    margin-left: 4px;
+    margin-top: -4px;
+  }
+  .socials .facebook i {
+    font-size: 25px;
+    margin-left: -15px;
+  }
+  .socials .email i {
+    font-size: 25px;
+  }
+  .socials .github i {
+    font-size: 25px;
+  }
+  .navBar ul li a::after {
+    left: 20px;
+  }
+  .navBar ul li a:hover::after {
+    width: 50px;
+  }
+  .banner_details h1 {
+    font-size: 25px;
+    margin-top: 175px;
+    margin-left: -4px;
+    width: 155px;
+  }
+  .banner_details p {
+    margin-left: -4px;
+    width: 275px;
+  }
+  .banner_details .line {
+    width: 19%;
+    margin-left: -3px;
+  }
+  element.style {
+    width: 305px;
+  }
+  element.style {
+    width: 260px;
+  }
+  p {
+    width: 250px;
+  }
+  .skill_bar {
+    width: 410px;
+    height: 100px;
+    margin-left: 35px;
+  }
+  .skill_bar .skill_details h2 {
+    font-size: 12px;
+  }
+  .skill_bar .skill_details .skill_dots {
+    margin-left: 0px;
+  }
+  .skill_bar .skill_details {
+    gap: 13px;
+  }
+  .skill h1 {
+    font-size: 25px;
+    margin-left: -4px;
+  }
+  .all_language ul {
+    display: table-footer-group;
+  }
+  .all_language {
+    margin-left: -4px;
+  }
+  .all_languagetwo ul {
+    display: table-footer-group;
+  }
+  .all_languagetwo {
+    margin-left: -4px;
+    margin-top: 176px;
+  }
+  .skill_bar {
+    margin-top: 340px;
+  }
+}
