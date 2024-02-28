@@ -82,4 +82,15 @@
   .skill_bar {
     margin-top: 340px;
   }
+  .socials .email .popup {
+    height: 30px;
+    width: 265px;
+    left: -100px;
+    top: -2px;
+    padding-top: 8px;
+  }
+  .h5,
+  h5 {
+    font-size: 14px;
+  }
 }
