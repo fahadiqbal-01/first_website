@@ -8,17 +8,14 @@ let about_btn = document.querySelector(".about_btn");
 let navlogo = document.querySelector(".navBar-title");
 let h_btn = document.querySelector(".home_btn");
 
-// btn.addEventListener("click", function () {
-//   if (popup.style.display == "none") {
-//     popup.style.display = "block";
-//   } else {
-//     popup.style.display = "none";
-//   }
-// });
-
 btn.addEventListener("click", function () {
-  popup.style.display = "block";
-})
+  if (popup.style.display == "none") {
+    popup.style.display = "block";
+  } else {
+    popup.style.display = "none";
+  }
+});
+
 
 skillbtn.addEventListener("click", function () {
   about.style.display = "none";
